@@ -1,0 +1,78 @@
+.wrapper {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 260px;
+  height: 300px;
+}
+
+.container {
+  position: absolute;
+	display: flex;
+  font-size: 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* margin: -10px 0 0 -10px; */
+}
+
+.display {
+	display: block;
+	margin: 15px auto;
+	height: 42px;
+	width: 250px;
+	padding: 0 10px;
+	border-radius: 4px;
+	border: 2px solid #C1C1C1;
+	background-color: #FFF;
+	font-size: 28px;
+	color: #666;
+	text-align: right;
+	font-weight: 400;
+}
+
+.button {
+	display: inline-block;
+	margin: 2px;
+	width: 60px;
+	height: 42px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.mathButtons {
+  cursor: pointer;
+	margin: 2px 2px 6px 2px;
+	color: #FFF;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #434343;
+	border-top: 2px solid #C1C1C1;
+	border-right: 2px solid #C1C1C1;
+	border-bottom: 2px solid #181818;
+	border-left: 2px solid #181818;
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #2E2E2E;
+}
+
+.digits {
+  cursor: pointer;
+	color: #181818;
+	text-shadow: 1px 1px 0px #FFF;
+	background-color: #f1f3f4;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #C1C1C1;
+	border-left: 2px solid #C1C1C1;
+	border-radius: 4px;
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #DCDCDC;
+}
+
+
+.clearButton {
+  cursor: pointer;
+	color: #FFF;
+	background-color: #D20000;
+  border-color: #D20000;
+}
